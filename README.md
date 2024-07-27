@@ -5,60 +5,52 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+</p> </br>
+<hr>
 
-## About Laravel
+<h3>Laravel MVC QuizApp Projesi</h3> </br>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+QuizApp projesi; sisteme üye olup sonrasında giriş yapan kullanıcıların, aktif olan yazılım, donanım sınavlarına katılabilmelerini sağlayan,
+sınavı tamamladıktan sonra sınavla ilgili detaylı bilgilerin gösterildiği sayfaya yönlendiren bir projedir. </br>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Admin ve user olmak üzere iki tip kullanıcı girişi vardır.</br></br>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Admin type ile giriş yapan kullanıcılar;
+sisteme sınav ekleyebilir, eklediği sınavı düzenleyebilir ve silebilir. Ve sınava sorular ekleyebilir. Sınava daha önce girmiş olan kullanıcıların
+sınav bilgilerini görüntüleyebilir. </br>
 
-## Learning Laravel
+User type ile giriş yapan kullanıcılar ise yalnızca aktif olan sınavlara katılabilir. Sınav bitiminde detay sayfasına yönlendirilerek sınav hakkında
+puan, doğru/yanlış sayısı vb. bilgileri görebilir. </br></br>
+<hr>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<h3>Üye Kaydı ve Üye Girişi İle İlgili Görseller :</h3>
+<img  src="public\readmeimages\readme_img1.png">
+<img  src="public\readmeimages\readme_img2.png">
+<img  src="public\readmeimages\readme_img3.png"> </br>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<h3> Admin Ekran Görüntüleri :</h3>
+<img  src="public\readmeimages\readme_img4.png">
+<img  src="public\readmeimages\readme_img5.png">
+<img  src="public\readmeimages\readme_img6.png">
+<img  src="public\readmeimages\readme_img7.png">
+<img  src="public\readmeimages\readme_img8.png">
+<img  src="public\readmeimages\readme_img9.png"> </br>
 
-## Laravel Sponsors
+<h3> User Ekran Görüntüleri :</h3>
+<img  src="public\readmeimages\readme_img10.png">
+<img  src="public\readmeimages\readme_img11.png">
+<img  src="public\readmeimages\readme_img12.png">
+<img  src="public\readmeimages\readme_img13.png">
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
