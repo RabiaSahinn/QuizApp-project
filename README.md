@@ -40,7 +40,15 @@ puan, doğru/yanlış sayısı vb. bilgileri görebilir. </br></br>
 <strong> → 1</strong> <img  src="public\readmeimages\readme_img13.png">
 <strong> → 2</strong> <img  src="public\readmeimages\readme_img11.png">
 <strong> → 3</strong> <img  src="public\readmeimages\readme_img10.png">
-<strong> → 4</strong> <img  src="public\readmeimages\readme_img12.png">
+<strong> → 4</strong> <img  src="public\readmeimages\readme_img12.png"> </br>
+<hr>
+<h4>Kullanılan Teknolojiler</h4>
+<ul>
+    <li>Laravel</li>
+    <li>JavaScript</li>
+    <li>Bootstrap</li>
+    <li>MySQL</li>
+</ul>
 
 
 
