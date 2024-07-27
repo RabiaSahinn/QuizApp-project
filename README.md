@@ -13,7 +13,7 @@
 QuizApp projesi; sisteme üye olup sonrasında giriş yapan kullanıcıların, aktif olan yazılım, donanım sınavlarına katılabilmelerini sağlayan,
 sınavı tamamladıktan sonra sınavla ilgili detaylı bilgilerin gösterildiği sayfaya yönlendiren bir projedir. </br>
 
-Admin ve user olmak üzere iki tip kullanıcı girişi vardır.</br></br>
+Admin ve user olmak üzere iki tip kullanıcı girişi vardır.</br>
 
 Admin type ile giriş yapan kullanıcılar;
 sisteme sınav ekleyebilir, eklediği sınavı düzenleyebilir ve silebilir. Ve sınava sorular ekleyebilir. Sınava daha önce girmiş olan kullanıcıların
@@ -24,23 +24,23 @@ puan, doğru/yanlış sayısı vb. bilgileri görebilir. </br></br>
 <hr>
 
 <h3>Üye Kaydı ve Üye Girişi İle İlgili Görseller :</h3>
-<img  src="public\readmeimages\readme_img1.png">
-<img  src="public\readmeimages\readme_img2.png">
-<img  src="public\readmeimages\readme_img3.png"> </br>
+<strong> → 1</strong> <img  src="public\readmeimages\readme_img1.png">
+<strong> → 2</strong> <img  src="public\readmeimages\readme_img2.png">
+<strong> → 3</strong> <img  src="public\readmeimages\readme_img3.png"> </br>
 
 <h3> Admin Ekran Görüntüleri :</h3>
-<img  src="public\readmeimages\readme_img4.png">
-<img  src="public\readmeimages\readme_img5.png">
-<img  src="public\readmeimages\readme_img6.png">
-<img  src="public\readmeimages\readme_img7.png">
-<img  src="public\readmeimages\readme_img8.png">
-<img  src="public\readmeimages\readme_img9.png"> </br>
+<strong> → 1</strong> <img  src="public\readmeimages\readme_img7.png">
+<strong> → 2</strong> <img  src="public\readmeimages\readme_img4.png">
+<strong> → 3</strong> <img  src="public\readmeimages\readme_img5.png">
+<strong> → 4</strong> <img  src="public\readmeimages\readme_img6.png">
+<strong> → 5</strong> <img  src="public\readmeimages\readme_img9.png"> 
+<strong> → 6</strong> <img  src="public\readmeimages\readme_img8.png"> </br>
 
 <h3> User Ekran Görüntüleri :</h3>
-<img  src="public\readmeimages\readme_img10.png">
-<img  src="public\readmeimages\readme_img11.png">
-<img  src="public\readmeimages\readme_img12.png">
-<img  src="public\readmeimages\readme_img13.png">
+<strong> → 1</strong> <img  src="public\readmeimages\readme_img13.png">
+<strong> → 2</strong> <img  src="public\readmeimages\readme_img11.png">
+<strong> → 3</strong> <img  src="public\readmeimages\readme_img10.png">
+<strong> → 4</strong> <img  src="public\readmeimages\readme_img12.png">
 
 
 
