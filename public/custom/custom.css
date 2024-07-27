@@ -1,0 +1,362 @@
+/*Welcome sayfası*/
+.navbar
+{
+    box-shadow: #d9cdad 0px 8px 15px;
+    background-color: transparent;
+}
+
+.navbar a
+{
+    color: #f6f6f8;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+.navbar a:hover
+{
+    color: #83b87b;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+.cardhome
+{
+	border: none;
+	border-top: 5px solid #83b87b;
+	background: #2d2d2d;
+	color: #d9cdad;
+    position: relative;
+    top: 100px;
+}
+
+.division
+{
+	float: none;
+	position: relative;
+	margin: 30px auto 20px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.division .line
+{
+	border-top: 2px solid #83b87b;
+	width: 100%;
+}
+
+.line.l
+{
+    position: relative;
+	left: 60px;
+}
+
+.line.r
+{
+    position: relative;
+	right: 60px;
+}
+
+.division span
+{
+	font-weight: 600;
+	font-size: 14px;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    color: #d9cdad;
+    position: relative;
+    top: -11px;
+}
+
+.authbutton a
+{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%, 0 69%);
+    background-color: #83b87b;
+    color: #f6f6f8;
+    border: transparent;
+    width: 200px;
+    font-weight: bolder;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    position: relative;
+    left: 27%;
+    font-size: 16px;
+    
+}
+
+.authbutton a:hover
+{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%, 0 69%);
+    background-color: #eee;
+    color: #83b87b;
+    border: transparent;
+    width: 200px;
+    font-weight: bolder;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    position: relative;
+    left: 26%;
+    font-size: 16px;
+}
+
+
+/*Login ve Register Sayfası*/
+#titlestyle
+{
+    background-color:#ffffff;
+    color:#2d2d2d;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    border-top: 5px solid #83b87b;
+    border-bottom: none;
+}
+
+.col-md-6 input
+{
+    border: 2px solid #83b87b;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.col-md-6 input:hover
+{
+    background-color: transparent;
+}
+
+.btnauth
+{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%, 0 69%);
+    background-color: #83b87b;
+    color: #f6f6f8;
+    border: transparent;
+    width: 200px;
+    height: 33px;
+    font-weight: bolder;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 16px;
+}
+
+.btnauth:hover
+{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%, 0 69%);
+    background-color: #2d2d2d;
+    color: #83b87b;
+    border: transparent;
+    width: 200px;
+    height: 33px;
+    font-weight: bolder;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 4px;
+}
+
+/*Bütün label*/
+.labeltext{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    padding-left: 12px;
+}
+
+/*Düzenle ve ekle input tasarımları*/
+.col-sm-10 input
+{
+    border: 2px solid #83b87b;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.col-sm-10 input:hover
+{
+    background-color: transparent;
+}
+
+.col-sm-10 textarea
+{
+    border: 2px solid #83b87b;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.col-sm-10 textarea:hover
+{
+    background-color: transparent;
+}
+
+.col-sm-10 select
+{
+    border: 2px solid #83b87b;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.col-sm-10 select:hover
+{
+    background-color: transparent;
+}
+
+.form-group textarea
+{
+    border: 2px solid #83b87b;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.form-group textarea:hover
+{
+    background-color: transparent;
+}
+
+ul > li
+{
+    list-style-type: none;
+}
+
+/*Responsive table*/
+@media screen and (max-width: 600px) {
+    .table {
+      border: 0;
+    }
+  
+    .table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    .table tr {
+      border-bottom: 3px solid #83b87b;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    .table td {
+      border-bottom: 1px solid #83b87b;
+      display: block;
+      font-size: 13px;
+      text-align: right;
+      font-family: "Fira Sans Extra Condensed", sans-serif;
+    }
+
+    .table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      font-family: "Fira Sans Extra Condensed", sans-serif;
+      font-size: 13px;
+    }
+    
+    .table td:last-child {
+      border-bottom: 0;
+    }
+
+  }
+
+.pagination
+{
+    float: right;
+}
+
+/*Home Sayfası sınav listeleme*/
+.list-group a
+{
+    border-left: 7px solid #83b87b;
+    background-color: #2d2d2d;
+    color: white;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+.list-group a:hover
+{
+    border-left: 7px solid #83b87b;
+    background-color: #f7f7f7;
+    color:#2d2d2d;
+    font-weight: bolder;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+/*Kullanıcının girmiş olduğu sınavların listesi*/
+#result a
+{
+    border-left: none;
+    background: white;
+    color: black;
+    text-decoration: none;
+
+}
+
+/*Sınav Detay*/
+
+.list-group li
+{
+   border: none;
+   background-color: #ffffff;
+   font-family: "Fira Sans Extra Condensed", sans-serif;
+   font-size: 16px;
+   box-shadow: #85d478 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+
+/*Sınav Giriş Sayfası*/
+.left-border
+{
+    border-left: 3px solid #83b87b;
+}
+
+.left-border h6
+{
+    position: relative;
+    left: 7px;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 15px;
+}
+
+.left-border span
+{
+    position: relative;
+    left: 7px;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 15px;
+}
+
+.form-check
+{
+    background-color: #bff5d4;
+    border-radius: 13px;
+    width: 50%;
+    position: relative;
+    left: 28px;
+    font-weight: bold;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+.form-check input
+{
+    position: relative;
+    left: 7px;
+}
+
+.form-check span
+{
+   position: absolute;
+   left: -15px;
+}
+
+.form-check label
+{
+    position: relative;
+    left: 7px;
+    top: 1px;
+}
+
+/*TOP 10 icon style*/
+.fa-trophy
+{
+    color: #FFD800;
+}
